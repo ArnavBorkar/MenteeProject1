@@ -1,46 +1,117 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Trial Website</title>
+    <title>FALCON-Amphi-1O1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   </head>
+
   <body>
-    <section class="main-navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Services</a></li>
+    <div class="container">
+       <!--HTML BODY INDEX SIDE NAV BAR -->
+       
+       <section id="side">
+        <div class="sidenav">
+          
+          <a href="#tagline-videobg">Transformation</a>
+          <a href="#about">Vision</a>
+          <a href="#land">Speeding Roads</a>
+          <a href="#air">Flying Skies</a>
+          <a href="#water">Sailing Waters</a>
+          <a href="#header">⇧</a>
+        </div>
+        </section>
+
+      
+        <section id="header"><!--logo on right and navbar right side -->
+        <div class="logo"> <!--company logo and name on left side-->
+          <h4 style="align-items: center;justify-content: center;"><video src="logovdo.mp4" width="45" height="35" autoplay muted loop></video> FALCON</h4>
+        </div> 
+        <div class="main-navbar"> <!--Navbar right aligned-->
+            <ul>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="rd.html">R&D</a></li>
+                
+                <li><a href="aboutus.html">ABOUT US</a></li>
+            </ul>
             
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-    </section>
-    <section class="showcase">
-      <div class="company-name">
-        <h2 data-text="RUST_BUCKET">RUST_BUCKET</h2>
+          </div>
+        </section>
+  
+
+
+    
+
+    <section class="showcase"><!--model name with animation along with black background image-->
+      <div class="model-name">
+        <h2 data-text="AMPHI_1O1">AMPHI_1O1</h2>
       </div>  
       <div class="explore">
-      <a href="#" class="btn">Explore</a>
+      <a href="#about" class="btn">EXPLORE</a>
+      </div>
+    </section>
+  
+     
+    <section id="tagline-videobg"><!-- Tagline with Video background -->
+      <div class="video-container">
+        <video src="cartransform.mp4" autoplay muted loop></video>
+      </div>
+      <div class="content">
+        <h1>"NO MORE A SCIENCE FICTION"</h1>
+
       </div>
     </section>
     
-     
-    <section id="content">
-      <h1></h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente odit praesentium iste perferendis, esse suscipit cupiditate explicabo iure expedita quis tenetur cumque quidem fugit saepe! Eum libero provident quos sunt ullam. Accusamus animi incidunt sapiente. Adipisci quae quas libero possimus in hic distinctio sed dolore culpa quisquam, laboriosam voluptates. Consequuntur!</p>
-      <p> purelfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhdlorem40  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus corporis repellendus dicta ratione magni ut illo rem, molestias incidunt aliquid ex inventore iste vero amet. Debitis quam rerum necessitatibus placeat officiis. Possimus id voluptate dicta distinctio. Doloribus, expedita odio.y based on science, do not consider anything as magic.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laudantium ab nobis cupiditate dolorem labore sunt autem optio neque eaque. Maiores optio deleniti nisi hic enim sapiente magnam praesentium facilis perferendis, nostrum quia repudiandae quo, assumenda quisquam veritatis iure dolor laboriosam laborum corporis esse. Similique inventore, quibusdam, maiores eos vel non deserunt placeat libero eaque debitis repudiandae obcaecati consequuntur voluptate.</p>
-    </section>
-      <div class="social">
-        <h3>Follow Me</h3>
-            <a href="https://github.com/Taarushthenoob/MenteeProject1"><i class="fab fa-github fa-3x"></i></a>
-            <a href=""><i class="fab fa-facebook fa-3x"></i></a>
-            <a href=""><i class="fab fa-instagram fa-3x"></i></a>
-            <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
-            <p>Copyright @2020 DevSoc Mentee </p>
-      </div>
+      <section id="about">
+          <h2>MODEL-AMPHI 1O1</h2>
+          <p>“Up in the sky, look: It's a car! It's a plane!” Amphi-1O1 (V5) is the latest generation flying car that transforms from road vehicle into air vehicle in less than 3-minutes. Useful for leisure and self-driving journeys, and also as a commercial taxi service, the dual mode transformation vehicle can go from driving to flying mode with the click of a button. It takes you from ground to sky with a takeoff of 300m reaching speeds up to 200 km/h. But most importantly, the stability and controllability of the AirCar is accessible to any pilot.</p>
+          <iframe  src="https://www.youtube.com/embed/QAnIjwwzupI?controls=0&showinfo=0&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
 
+      <section id="land"><!-- car photo on runway with features  -->
+          <img src="imggallery/image1.jpg" class="image1" alt="air car" width="80%" >
+          <div class="features">
+              <h4 class="f1">Acceleration <span>3.5s</span> 0-60 mph</h4>
+              <h4 class="f2">Top Speed 200 mph</h4>
+              <h4 class="f3">Hybrid Car-Electricity/Petrol/Diesel  </h4>
+              <h4 class="f4">3000-HP BMW engine</h4>
+        </div>
+      </section>
+
+      <section id="air"><!-- car photo in air with features  -->
+          
+          <img src="image2.jpg" class="image2" alt="air car" width="80%" >
+          
+          <div class="features">
+              <h4 class="f1">Cruise Speed-154 mph</h4>
+              <h4 class="f2">Range-309 miles</h4>
+              <h4 class="f3">Rate oF Climb-2650 ft/min</h4>
+              <h4 class="f4">Two 3,700 lbf (16.5 kN) Thrust TFE731-3 </h4>
+          </div>
+      
+      </section>
+
+      <section id="water"><!-- car photo on water with features  -->
+          <img src="image3.jpg" class="image3" alt="air car" width="80%" >
+          <div class="features">
+              <h4 class="f1">SUPERCHARGED 1,498cc MARINE ENGINE</h4>
+              <h4 class="f2">Propulsion System-160mm jet pump, axial-flow, single stage</h4>
+              <h4 class="f3">3-Stroke, Inline 4-cylinder</h4>
+              <h4 class="f4">Maximum Boost-16.8 psi</h4>
+        </div>
+
+      </section>
+    
+    <section id="social">
+      <h3>Follow Us</h3>
+      <a href="https://github.com/Taarushthenoob/MenteeProject1" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+      <a href="https://facebook.com/devsocbpgc" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+      <a href="https://linkedin.com/company/devsoc-bpgc" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href="https://instagram.com/devsocbitsgoa" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+        <p>Copyright @2021 DevSoc Mentee </p>
+    </section>
+  </div>
   </body>
 </html>
